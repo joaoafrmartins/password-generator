@@ -1,0 +1,16 @@
+{
+  "name": "password-generator",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "dependencies": {
+    "camelize": "",
+    "minimist": ""
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "coffee index.coffee --has-special-chars --has-numbers"
+  },
+  "author": "",
+  "license": "ISC"
+}
