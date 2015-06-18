@@ -2,7 +2,8 @@
   "name": "password-generator",
   "version": "0.0.1",
   "description": "",
-  "main": "index.js",
+  "bin":{ "password-generator": "./bin/password-generator" },
+  "main": "./bin/password-generator",
   "dependencies": {
     "camelize": "",
     "minimist": ""
