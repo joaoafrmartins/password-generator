@@ -1,4 +1,16 @@
+{ resolve } = require 'path'
+
+camelize = require resolve __dirname, 'node_modules', 'camelize'
+
 module.exports = (options={}) ->
+
+  Object.keys(options).map (key) ->
+
+    if key.indexOf("-") > 0
+
+      args[camelize key] = args[key]
+
+      delete args[key]
 
   { specialChars, numbers, length, letters, uppercase } = options
 
